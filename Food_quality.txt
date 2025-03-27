@@ -1,0 +1,12 @@
+Explanation:
+Color: Random integer between 0 and 255.
+Smell, Taste, Texture: Randomly chosen from 'Good', 'Moderate', 'Poor'.
+pH Level: Random float between 3 and 9.
+Moisture Content: Random float between 0 and 100 (percentage).
+Nutrient Content: Random float between 0 and 100 (percentage).
+Temperature: Random float between -10 and 50 degrees Celsius.
+
+Quality Result Rules:
+Poor: High color intensity (>200), poor smell, taste, or texture.
+Moderate: Moderate color intensity (>150), moderate smell, taste, or texture.
+Good: All other cases.
